@@ -22,6 +22,10 @@ dist/
 *.pem
 *.keys.json
 
+# Backup archives created by `make backup`（含全量运行时数据，体积以 GB 计）
+happyclaw-backup-*.tar.gz
+*.tar.gz
+
 # Database files outside store/ (safety net)
 *.db
 *.db-wal
